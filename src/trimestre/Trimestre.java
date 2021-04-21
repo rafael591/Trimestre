@@ -28,41 +28,23 @@ public class Trimestre {
         valor = entrada.nextInt();
         
         switch (valor) {
-            case 1:
+            case 1,2:
                 System.out.println("Te encuentras en el primer trimestre");
                 break;
-            case 2:
+            case 3,4:
                 System.out.println("Te encuentras en el segundo trimestre");
                 break;
-            case 3:
+            case 5,6:
                 System.out.println("Te encuentras en el tercer trimestre");
                 break;
-            case 4:
+            case 7,8:
                 System.out.println("Te encuentras en el cuarto trimestre");
                 break;
-            case 5:
+            case 9,10:
                 System.out.println("Te encuentras en el quinto trimestre");
                 break;
-            case 6:
+            case 11,12:
                 System.out.println("Te encuentras en el sexto trimestre");
-                break;
-            case 7:
-                System.out.println("Te encuentras en el septimo trimestre");
-                break;
-            case 8:
-                System.out.println("Te encuentras en el octavo trimestre");
-                break;
-            case 9:
-                System.out.println("Te encuentras en el noveno trimestre");
-                break;
-            case 10:
-                System.out.println("Te encuentras en el decimo trimestre");
-                break;
-            case 11:
-                System.out.println("Te encuentras en el undécimo trimestre");
-                break;
-            case 12:
-                System.out.println("Te encuentras en el duodécimo trimestre");
                 break;
             default:
                 System.out.println("Ingrese un valor correcto");
